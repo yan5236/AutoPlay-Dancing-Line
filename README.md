@@ -4,9 +4,23 @@
 
 ## 安装
 
-1. 确保已安装 [BepInEx](https://github.com/BepInEx/BepInEx)（IL2CPP 版本）
-2. 将 `AutoPlay.dll` 放入 `BepInEx\plugins\` 目录
+### 前置条件
+
+- 已购买并安装《跳舞的线》Steam 版
+- 游戏已安装 [BepInEx](https://github.com/BepInEx/BepInEx)（IL2CPP 版本，推荐 6.0+）
+
+### 安装步骤
+
+1. 从 [Releases](https://github.com/yan5236/AutoPlay-Dancing-Line/releases) 页面下载最新版 `AutoPlay.dll`
+2. 将 `AutoPlay.dll` 放入游戏目录下的 `BepInEx\plugins\` 文件夹，例如：
+   ```
+   D:\SteamLibrary\steamapps\common\Dancing Line\BepInEx\plugins\AutoPlay.dll
+   ```
 3. 启动游戏
+
+### 验证安装
+
+进入任意关卡后，按下 **F8** 键，观察屏幕右上角是否出现 `AutoPlay: ON` 文字。出现即为安装成功。
 
 ## 如何启用 AutoPlay
 
